@@ -1,4 +1,5 @@
 class TZ {
+
     constructor(date,tz) {
        this.date = date;
        this.tz = tz;
@@ -20,6 +21,11 @@ class TZ {
             hours = hours+parseInt(tz);
             this.date.setHours(hours);
         }
+    }
+
+    static getTimeZone(){
+        let date = new Date();
+        return date.getTimezoneOffset() / 60
     }
 
     validate() {
@@ -45,5 +51,4 @@ class TZ {
         this.date = date;
     }
 }
-
 module.exports = TZ;

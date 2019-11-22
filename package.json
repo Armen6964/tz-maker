@@ -6,6 +6,11 @@
   "scripts": {
     "test": "node ./test.js"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Armen6964/tz-maker.git"
+  },
+  "homepage": "https://github.com/Armen6964/tz-maker/blob/master/README.md",
   "keywords": ["tz","date","tz-maker","date convertor"],
   "author": "Armen Hakobyan",
   "license": "ISC"
