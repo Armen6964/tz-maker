@@ -9,3 +9,10 @@
     console.log(t.date); //returns converted date
     
 </p>
+
+<h3>API</h3>
+<p>
+
+    TZ.getTimeZoneInHours() //returns time zone in hours ex +4,-4,-2,+2
+    
+</p>

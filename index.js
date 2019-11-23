@@ -23,9 +23,12 @@ class TZ {
         }
     }
 
-    static getTimeZone(){
-        let date = new Date();
-        return date.getTimezoneOffset() / 60
+    static getTimeZoneInHours(){
+       return new Date()
+           .toTimeString()
+           .split("GMT")[1]
+           .split(0,3)
+           .join("");
     }
 
     validate() {
